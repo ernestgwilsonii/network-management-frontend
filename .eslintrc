@@ -1,0 +1,27 @@
+{
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "es6": true,
+    "modules": true,
+    "templateStrings": true,
+    "jsx": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+  },
+  "rules": {
+    "eol-last": "error",
+    "no-extra-semi": "error",
+    "indent": ["error", 2],
+    "no-alert": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "linebreak-style": ["error", "unix"],
+    "no-unused-vars": ["error", { "vars": "all", "args": "all" }]
+  }
+}
