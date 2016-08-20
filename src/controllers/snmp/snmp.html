@@ -1,3 +1,4 @@
-<div>
-    <h3>{{ ctrl.welcome() }}</h3>
+<div ng-init="$ctrl.init()">
+    <h3>Welcome to the Network Management App - SNMP</h3>
+    <h4 ng-bind="$ctrl.data"></h4>
 </div>

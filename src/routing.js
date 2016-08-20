@@ -15,12 +15,12 @@ export default function routes($stateProvider, $urlRouterProvider, $locationProv
             url: "/",
             template: require("./controllers/home/home.html"),
             controller: "HomeController",
-            controllerAs: "ctrl"
+            controllerAs: "$ctrl"
         })
         .state("snmp", {
             url: "/snmp",
             template: require("./controllers/snmp/snmp.html"),
             controller: "SnmpController",
-            controllerAs: "ctrl"
+            controllerAs: "$ctrl"
         });
 }
