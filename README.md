@@ -1,6 +1,6 @@
 ## Network Management App Frontend
 
-To work on this app:
+To setup the app locally:
 ```
   $ mkdir network-management-app
   $ cd network-management-app
