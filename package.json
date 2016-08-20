@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "angular": "^1.4.3",
-    "angular-ui-router": "^0.3.1",
+    "angular-route": "^1.4.3",
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",

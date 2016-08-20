@@ -3,7 +3,7 @@ import "./css/shared.css";
 
 // import angular dependencies
 import angular from "angular";
-import uirouter from 'angular-ui-router';
+import ngRoute from 'angular-route';
 
 // config
 import routing from "./routing";
@@ -16,7 +16,7 @@ import HomeController from "./controllers/home/homeController";
 import SnmpController from "./controllers/snmp/snmpController";
 
 // App
-angular.module("networkManagementApp", [uirouter])
+angular.module("networkManagementApp", [ngRoute])
 
 // Home
 .controller("HomeController", HomeController)
